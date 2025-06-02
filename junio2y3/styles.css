@@ -1,0 +1,37 @@
+h1 {
+    color: rgb(182, 53, 53);
+}
+
+#caracoli {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+
+.pieza1 {
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    /*margin-right: 0;*/ /*1st I thoght margin-right: 0 and then show pieza 2 next to plaza1 but it wasn't*/
+    position: absolute; /*only ocupay width 100 and height 100, and pieza2 show next to pieza 1*/
+}
+.pieza2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    margin-left: 150px;
+}
+.pieza3 {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    
+}
+.pieza4 {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin-left: 150px;
+}
